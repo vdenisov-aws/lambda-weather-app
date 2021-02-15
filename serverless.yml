@@ -8,6 +8,7 @@ plugins:
 provider:
   name: aws
   runtime: nodejs12.x
+  profile: serverless
   stage: dev
   region: us-west-2
   environment:
